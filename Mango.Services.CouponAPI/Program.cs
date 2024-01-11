@@ -1,6 +1,7 @@
 using AutoMapper;
 using Mango.Services.CouponAPI;
 using Mango.Services.CouponAPI.Data;
+using Mango.Services.CouponAPI.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -16,7 +17,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(option =>
 {
-    option.AddSecurityDefinition(name: "Bearer", securityScheme: new OpenApiSecurityScheme
+    option.AddSecurityDefinition(name: JwtBearerDefaults.AuthenticationScheme, securityScheme: new OpenApiSecurityScheme
     {
         Name = "Authorization",
         Description = "Enter the Bearer Authorization string as following: `Bearer Generated-JWT-Token`",
@@ -24,28 +25,22 @@ builder.Services.AddSwaggerGen(option =>
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
     });
-});
-var secret = builder.Configuration.GetValue<string>("ApiSettings:Secret");
-var issuer = builder.Configuration.GetValue<string>("ApiSettings:Issuer");
-var audience= builder.Configuration.GetValue<string>("ApiSettings:Audience");
-var key=Encoding.ASCII.GetBytes(secret);
-
-builder.Services.AddAuthentication(x =>
-{
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(x =>
-{
-    x.TokenValidationParameters = new TokenValidationParameters
+    option.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = true,
-        ValidIssuer = issuer,
-        ValidAudience = audience,
-        ValidateAudience = true
-    };
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference= new OpenApiReference
+                {
+                    Type=ReferenceType.SecurityScheme,
+                    Id=JwtBearerDefaults.AuthenticationScheme
+                }
+            }, new string[]{}
+        }
+    });
 });
+
+builder.AddAppAuthetication();
 builder.Services.AddAuthorization();
 builder.Services.AddDbContext<AppDbContext>(option =>
 {
