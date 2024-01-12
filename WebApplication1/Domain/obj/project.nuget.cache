@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W+AGvDJUIYUhgAb7321QKI5sJtaYwdoUOBJnb15+/LVYAtyolS3tCIQlnFp7myjth5MfqBX7FwPvxskIH1Rb8w==",
+  "dgSpecHash": "TWW6uLqqZa2k9HQ6RU7UXVu7bB3b9w6gM5IkQDd0ODLP7Y/BUJWa12z/lpfUGEFxvbkU+6pqepkQDsVnkiiOJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatihPC\\Desktop\\MicroserviceFinalProject\\WebApplication1\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\IsubuProject\\MicroserviceFinalProject\\WebApplication1\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

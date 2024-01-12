@@ -1,0 +1,12 @@
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\bin\Debug\net8.0\Database.deps.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\bin\Debug\net8.0\Database.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\bin\Debug\net8.0\Database.pdb
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.AssemblyInfoInputs.cache
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.AssemblyInfo.cs
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.csproj.CoreCompileInputs.cache
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.sourcelink.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\refint\Database.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\Database.pdb
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Database\obj\Debug\net8.0\ref\Database.dll

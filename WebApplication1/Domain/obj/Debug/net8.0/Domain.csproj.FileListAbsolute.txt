@@ -1,0 +1,12 @@
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\bin\Debug\net8.0\Domain.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\bin\Debug\net8.0\Domain.pdb
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\Domain.pdb
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Domain\obj\Debug\net8.0\ref\Domain.dll

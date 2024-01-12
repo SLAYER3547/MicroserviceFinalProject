@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductAPI",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ShoppingCartAPI", "Mango.Services.ShoppingCartAPI\Mango.Services.ShoppingCartAPI.csproj", "{F5FF0A4B-6292-4BD5-9EBD-9A0C77B1CB10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Gateway.APIGateway", "Mango.Gateway.APIGateway\Mango.Gateway.APIGateway.csproj", "{BBE94EC7-F0BF-4004-AFC5-136AF478B114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Gateway.APIGateway", "Mango.Gateway.APIGateway\Mango.Gateway.APIGateway.csproj", "{BBE94EC7-F0BF-4004-AFC5-136AF478B114}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean Architecture", "Clean Architecture", "{CA21AB9C-C3C2-465A-BF9F-0B81DE847476}"
 EndProject
@@ -31,13 +31,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{33535B26-70B4-45B6-A121-2311ECA16506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D577A275-A909-44AC-BF61-F14986751FB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{D577A275-A909-44AC-BF61-F14986751FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{F2DDFDCC-77B0-4390-8C45-D5550434A039}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{F2DDFDCC-77B0-4390-8C45-D5550434A039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{4B9348DD-D4E7-4628-8EE8-8A1B890BF5BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{4B9348DD-D4E7-4628-8EE8-8A1B890BF5BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{91F35F46-F798-4396-AC96-E013B970891B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{91F35F46-F798-4396-AC96-E013B970891B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CatalogAPI", "Mango.Services.CatalogAPI\Mango.Services.CatalogAPI.csproj", "{DCD5E01C-664E-4308-99CE-DA2FC904F5A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{91F35F46-F798-4396-AC96-E013B970891B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F35F46-F798-4396-AC96-E013B970891B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F35F46-F798-4396-AC96-E013B970891B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD5E01C-664E-4308-99CE-DA2FC904F5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD5E01C-664E-4308-99CE-DA2FC904F5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD5E01C-664E-4308-99CE-DA2FC904F5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD5E01C-664E-4308-99CE-DA2FC904F5A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{F2DDFDCC-77B0-4390-8C45-D5550434A039} = {0B6A9F32-5CFF-4E4C-843D-51D7A275B125}
 		{4B9348DD-D4E7-4628-8EE8-8A1B890BF5BB} = {E0398480-9190-4AD2-BC60-DAC2D1AFC506}
 		{91F35F46-F798-4396-AC96-E013B970891B} = {33535B26-70B4-45B6-A121-2311ECA16506}
+		{DCD5E01C-664E-4308-99CE-DA2FC904F5A7} = {CA2A5D16-BDA6-44F6-8406-0D31053CB8F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0688594-0499-45F7-851A-8094AE152B9A}
