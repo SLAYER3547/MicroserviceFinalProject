@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WwjbkvNnHiS28oNC1CoyiYdmSuCuDzHMkLtYTH8PEXA=",
+  "Source": "Mango.Gateway.APIGateway",
+  "BasePath": "_content/Mango.Gateway.APIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
