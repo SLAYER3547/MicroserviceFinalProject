@@ -1,8 +1,6 @@
-﻿	using Microsoft.EntityFrameworkCore.Metadata;
-	using MongoDB.Driver.Core.Connections;
-	using RabbitMQ.Client;
-	using System;
-	using System.Text;
+﻿using RabbitMQ.Client;
+using System.Text;
+
 namespace Mango.Services.CatalogAPI
 {
 
@@ -16,7 +14,7 @@ namespace Mango.Services.CatalogAPI
 			var factory = new ConnectionFactory() { HostName = "localhost" };
 			_connection = factory.CreateConnection();
 			_channel = _connection.CreateModel();
-			_channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
+			_channel.QueueDeclare(queue: "Merhaba Serdar Hocam", durable: false, exclusive: false, autoDelete: false, arguments: null);
 		}
 
 		public void SendMessage(string message)

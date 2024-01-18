@@ -19,8 +19,12 @@ namespace Mango.Services.CatalogAPI
 				return ConnectionMultiplexer.Connect(configuration);
 			});
 			#endregion
+
+			#region RabbitMQ
+				builder.Services.AddSingleton<RabbitMQService>();
+			#endregion
 			// Add services to the container.
-			
+
 
 			builder.Services.AddControllers();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
