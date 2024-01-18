@@ -116,3 +116,5 @@ D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Services.CatalogA
 D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Services.CatalogAPI\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Services.CatalogAPI\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Services.CatalogAPI\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Services.CatalogAPI\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Services.CatalogAPI\bin\Debug\net8.0\StackExchange.Redis.dll

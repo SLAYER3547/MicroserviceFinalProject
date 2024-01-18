@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bp04u8dndc1vQtsCb1YJX7e9eavZCgJVLGhqOfvFzrSWE8u3pWkGf3lNTMt+i3GZTUeHm3E07LBXl45H/Kff2Q==",
+  "dgSpecHash": "Z1ykpPHctKeDilpFKvgtV+S7b7IvkUfsU8Y1g2N/Alw2V+9okdDGPZCux6ufBeuacgH3te46G74ZGb3lwHyr1g==",
   "success": true,
   "projectFilePath": "D:\\IsubuProject\\MicroserviceFinalProject\\WebApplication1\\Mango.Services.CatalogAPI\\Mango.Services.CatalogAPI.csproj",
   "expectedPackageFiles": [
@@ -41,8 +41,11 @@
     "C:\\Users\\ayakdas\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\rabbitmq.client\\7.0.0-alpha.2\\rabbitmq.client.7.0.0-alpha.2.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\stackexchange.redis\\2.7.10\\stackexchange.redis.2.7.10.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
@@ -56,7 +59,7 @@
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.composition.hosting\\6.0.0\\system.composition.hosting.6.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
-    "C:\\Users\\ayakdas\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
@@ -65,7 +68,7 @@
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\ayakdas\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512",
     "C:\\Users\\ayakdas\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
   "logs": []

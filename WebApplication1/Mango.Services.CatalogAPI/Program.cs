@@ -3,6 +3,7 @@ using MongoDB.Driver;
 using Mango.Services.CatalogAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Mango.Services.CatalogAPI.Models;
+using StackExchange.Redis;
 
 namespace Mango.Services.CatalogAPI
 {
@@ -11,8 +12,15 @@ namespace Mango.Services.CatalogAPI
 		public static async Task Main(string[] args)
 		{
 			var builder = WebApplication.CreateBuilder(args);
-
+			#region Redis
+			builder.Services.AddSingleton<IConnectionMultiplexer>(c =>
+			{
+				var configuration = ConfigurationOptions.Parse("localhost:6379"); // Redis sunucu bilgileri
+				return ConnectionMultiplexer.Connect(configuration);
+			});
+			#endregion
 			// Add services to the container.
+			
 
 			builder.Services.AddControllers();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.1",
           "MongoDB.Driver": "2.23.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+          "StackExchange.Redis": "2.7.10",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -519,6 +520,17 @@
           }
         }
       },
+      "Pipelines.Sockets.Unofficial/2.2.8": {
+        "dependencies": {
+          "System.IO.Pipelines": "6.0.3"
+        },
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.2.8.1080"
+          }
+        }
+      },
       "SharpCompress/0.30.1": {
         "runtime": {
           "lib/net5.0/SharpCompress.dll": {
@@ -532,6 +544,18 @@
           "lib/net5.0/Snappier.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StackExchange.Redis/2.7.10": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Pipelines.Sockets.Unofficial": "2.2.8"
+        },
+        "runtime": {
+          "lib/net6.0/StackExchange.Redis.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.7.10.12442"
           }
         }
       },
@@ -949,6 +973,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/8.0.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512"
     },
+    "Pipelines.Sockets.Unofficial/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
+      "path": "pipelines.sockets.unofficial/2.2.8",
+      "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
+    },
     "SharpCompress/0.30.1": {
       "type": "package",
       "serviceable": true,
@@ -962,6 +993,13 @@
       "sha512": "sha512-rFtK2KEI9hIe8gtx3a0YDXdHOpedIf9wYCEYtBEmtlyiWVX3XlCNV03JrmmAi/Cdfn7dxK+k0sjjcLv4fpHnqA==",
       "path": "snappier/1.0.0",
       "hashPath": "snappier.1.0.0.nupkg.sha512"
+    },
+    "StackExchange.Redis/2.7.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHC438nKZUbtJ0H8O5pCTMrurYy6ByUPhzUNAPCUADtI4BSyvASpWAquYjN+4NKEiKaW5AO++tgftum3tDraPQ==",
+      "path": "stackexchange.redis/2.7.10",
+      "hashPath": "stackexchange.redis.2.7.10.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
