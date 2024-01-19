@@ -14,7 +14,7 @@ namespace Mango.Services.CatalogAPI
 			var factory = new ConnectionFactory() { HostName = "localhost" };
 			_connection = factory.CreateConnection();
 			_channel = _connection.CreateModel();
-			_channel.QueueDeclare(queue: "Merhaba Serdar Hocam", durable: false, exclusive: false, autoDelete: false, arguments: null);
+			_channel.QueueDeclare(queue: "Ne mutlu Fenerbahçeli ve Serdar hocanın orencisi olanlara", durable: false, exclusive: false, autoDelete: false, arguments: null);
 		}
 
 		public void SendMessage(string message)

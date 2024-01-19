@@ -40,7 +40,7 @@ namespace Mango.Services.CatalogAPI
 			var db = dbClient.GetDatabase("Catalog");
 			var emp = db.GetCollection<CatalogMongo>("Type");
 
-			var product = new CatalogMongo { ProductId = "2", Product = "Phone", Category = "Tecnology", Price = "15000", Description = "SmartPhone", StockStatus = true };
+			var product = new CatalogMongo { ProductId = "3", Product = "Notebook", Category = "Tecnology", Price = "25000", Description = "Computer", StockStatus = true };
 
 			await emp.InsertOneAsync(product);
 

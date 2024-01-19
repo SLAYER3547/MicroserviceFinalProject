@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "URtoLZBqpIPBMMbmaGKF9MCiR7ePWKsbel+VYymqiJv16gcrJu66oaEgIfs6sX0Xbowelgrgjdvpq0N9WYmNxA==",
+  "success": true,
+  "projectFilePath": "D:\\IsubuProject\\MicroserviceFinalProject\\WebApplication1\\Mongo.ExampleCQRS.Application\\ExampleCQRS.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayakdas\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\ayakdas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

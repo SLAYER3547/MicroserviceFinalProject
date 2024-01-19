@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mango.Services.CatalogAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d10efabadc0ea8a0e3aaa3054860e156a8d3cfab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898d7050c0fbfb024f80bb5a432adfe8f30ced1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mango.Services.CatalogAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mango.Services.CatalogAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,6 +22,7 @@ namespace Mango.Services.CatalogAPI.Controllers
 			var database = _redisConnection.GetDatabase();
 			var value = database.StringGet("sampleKey");
 			database.StringSet("testKey", "Merhaba Serdar Hocam!");
+			database.StringSet("testKey2", "Merhaba Hocam!");
 			return Ok(value);
 		}
 	}

@@ -1,0 +1,14 @@
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Mango.Web.exe
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Mango.Web.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Mango.Web.deps.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Mango.Web.runtimeconfig.json
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Mango.Web.pdb
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\IdentityModel.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\IsubuProject\MicroserviceFinalProject\WebApplication1\Mango.Web\obj\Release\net8.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
